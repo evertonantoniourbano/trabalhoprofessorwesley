@@ -1,0 +1,49 @@
+/*Codigo scroll suave*/
+html
+{
+    scroll-behavior: smooth;
+}
+/*Efeitos Over Img*/
+.zoom 
+{
+	overflow: hidden;
+}
+
+.zoom img 
+{
+	max-width: 100%;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+/*Ajuste do logo do site*/
+.logo-ajust {
+    margin-right: 10px;
+    width:140px; 
+    height:60px;
+}
+.titulo-ajust{
+	text-align: center;
+	color: dimgrey;
+}
+body{
+	padding-top: 68px;
+}
+section{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.imgajust{
+	height: 180px;
+	right: 130px;
+}
+.imgajust2{
+	height: 120px;
+	right: 90px;
+}
